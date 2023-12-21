@@ -3,7 +3,7 @@ const router = express.Router()
 const { getProductos,
     postProductos,
     putProductos,
-    deleteProductos } = require('../controllers/productsController')
+    deleteProductos } = require('../controllers/productosController')
 
 router.route('/').get(getProductos).post(postProductos)
 
